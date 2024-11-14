@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AutomasionController {
-	@GetMapping(value="/devapp")
+	@GetMapping(value="/jenkins")
 	public String post() {
-		return "hello world";
+		return "I am fullstack developer";
 		
 	}
 }
